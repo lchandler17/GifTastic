@@ -1,0 +1,27 @@
+.panel {
+	margin: 50px 0px;
+}
+
+button {
+	margin: 10px;
+}
+
+.ratings {
+	text-align: center;
+}
+
+.gifs {
+	/*float: left;*/
+}
+
+.gifShow {
+	float: left;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+/*.btn {
+	background-color: #8D0000;
+	color: #FFFFF7;
+	margin: 20px;
+}*/
