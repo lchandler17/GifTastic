@@ -7,7 +7,6 @@
 <title>GifTastic</title>
 
 <link rel=stylesheet href="assets/css/reset.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel=stylesheet href="assets/css/style.css">
 
 <script src="https://code.jquery.com/jquery.js"></script>
@@ -16,28 +15,21 @@
 </head>
 <body>
 
-<div class="row">
-	<div class="col-md-1"></div>
-	<div class="col-md-10">
-		<div class="panel panel-default main">
-			<div class="panel-body">
+<div class="panel">
 
-				<div id="gifButtons"></div>
+	<div id="gifButtons"></div>
 
-				<br />
+		<br />
 
-				<div>
-				   <input id="animal-input" type="text" class="form-control" placeholder="Add a new animal!" aria-describedby="basic-addon1">
+	<div>
+		<input id="animal-input" type="text" placeholder="Add a new animal!">
 
-				   <button id="add-animal" type="button" class="btn btn-default btn-sm">SUBMIT</button>
-				</div>
+		<button id="add-animal" type="button" class="btn btn-default btn-sm">SUBMIT</button>
+	</div>
 
-				<div id="gifDisplay"></div>
+	<div id="gifDisplay"></div>
 
-			</div> <!--panel-body-->
-		</div> <!--panel-main-->
-	</div> <!--col-md-8-->
-	<div class="col-md-1"></div>
+</div> <!--panel-->
 
 </body>
 </html>
