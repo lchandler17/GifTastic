@@ -17,7 +17,6 @@ function displayGifs() {
           	var gifSet = $("<div class='gifShow'>");
           	gifSet.append("<div class='ratings'> Rated: " + response.data[i].rating + "</div>");
           	gifSet.append("<div class='gifs'><iframe src='" + response.data[i].embed_url + "' /></div>");
-          	// gifSet.append("<div class='gifs'><iframe src='" + response.data[i].images.original_still.url + "' /></div>");
           	$("#gifDisplay").append(gifSet);
           	}
         });
@@ -36,7 +35,7 @@ function renderButtons() {
         }
       }
 
-//when "add animal" button is clicked
+//when "submit" button is clicked
 $("#add-animal").on("click", function(event) {
         event.preventDefault();
         var newAnimal = $("#animal-input").val().trim();

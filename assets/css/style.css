@@ -10,18 +10,8 @@ button {
 	text-align: center;
 }
 
-.gifs {
-	/*float: left;*/
-}
-
 .gifShow {
 	float: left;
 	margin: 0 auto;
 	padding: 10px;
 }
-
-/*.btn {
-	background-color: #8D0000;
-	color: #FFFFF7;
-	margin: 20px;
-}*/
